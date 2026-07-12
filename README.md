@@ -10,8 +10,8 @@ That same curiosity is what got me building with LLMs — wondering if a model c
 
 **This profile is where that curiosity turns into shipped code** — my playground for AI projects. Some solve problems I run into in daily life (family finances, retirement planning), some are me kicking the tires on a new model just to see what it can do, and all of them start the same way: I hit something annoying, and figured I'd try building my way out of it.
 
-- 🔭 Building AI tools to solve problems I actually run into — at work and at home
-- 🧠 Currently deep in where LLM agents meet hardware verification — RTL-aware debuggers, automated triage, agentic sim-flow tools
+- 🔭 Building AI tools to solve problems I actually run into
+- 🧠 Currently deep in where LLM agents meet hardware verification — RTL-aware debuggers, automated triage, tool assistant
 - 🎓 M.S. Computer Engineering, Texas A&M University
 - 🏆 1st place, Hack@DAC (DAC 2018)
 
