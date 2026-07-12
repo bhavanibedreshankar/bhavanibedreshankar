@@ -68,7 +68,7 @@ def main() -> None:
     before, rest = readme.split(START_MARKER, 1)
     _, after = rest.split(END_MARKER, 1)
 
-    section = "### Featured Projects\n\n"
+    section = "### Projects\n\n"
     section += render_featured(manifest.get("featured", []))
     fun = manifest.get("fun", [])
     if fun:
