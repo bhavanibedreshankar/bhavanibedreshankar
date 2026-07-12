@@ -57,11 +57,8 @@
 
   <!-- name and tagline; textLength pins exact width so nothing overflows regardless of font metrics -->
   <g transform="translate(230,0)">
-    <text x="0" y="118" font-size="42" font-weight="700" fill="url(#nameGrad)" letter-spacing="1" textLength="560" lengthAdjust="spacingAndGlyphs">Bhavani Bedre Shankar</text>
-    <text x="0" y="156" font-size="20" font-weight="500" textLength="880" lengthAdjust="spacingAndGlyphs">
-      <tspan fill="#7dd3fc">Senior DV Infrastructure Engineer</tspan><tspan fill="#64748b">   ·   </tspan><tspan fill="#c4b5fd">GenAI Tooling for DV Flow</tspan>
-    </text>
-    <text x="0" y="202" font-size="18" font-style="italic" fill="#5eead4" textLength="520" lengthAdjust="spacingAndGlyphs">Building with GenAI, one project at a time</text>
+    <text x="0" y="128" font-size="42" font-weight="700" fill="url(#nameGrad)" letter-spacing="1" textLength="560" lengthAdjust="spacingAndGlyphs">Bhavani Bedre Shankar</text>
+    <text x="0" y="172" font-size="22" font-weight="500" font-style="italic" fill="#7dd3fc" textLength="660" lengthAdjust="spacingAndGlyphs">Curious engineer, building AI tools for real problems</text>
   </g>
 
   <!-- bottom accent -->

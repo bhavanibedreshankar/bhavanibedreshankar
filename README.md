@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Bhavani Bedre Shankar — Senior DV Infrastructure Engineer · GenAI Tooling for Verification" width="100%" />
+  <img src="assets/banner.svg" alt="Bhavani Bedre Shankar — Curious engineer, building AI tools for real problems" width="100%" />
 </div>
 
 <br/>
