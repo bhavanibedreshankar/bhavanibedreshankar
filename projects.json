@@ -1,0 +1,23 @@
+{
+  "featured": [
+    {
+      "repo": "tpe-tensor-processing-engine",
+      "emoji": "🔧",
+      "description": "An open-source, from-scratch AI accelerator: RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment — with 7 intentionally-catalogued bugs to exercise the flow.",
+      "stack": "RTL · C++ · UVM · Verification Methodology"
+    },
+    {
+      "repo": "agentic_ai_basics",
+      "emoji": "🤖",
+      "description": "A learning series of small, self-contained Python templates for building with the Claude API — the foundations behind the debug-assistant tooling described above.",
+      "stack": "Python · Claude API · Agentic Patterns"
+    }
+  ],
+  "fun": [
+    {
+      "repo": "road-rage",
+      "emoji": "🎮",
+      "description": "A browser-based synthwave motorcycle combat racer, built in Canvas 2D / vanilla JS as a single HTML file."
+    }
+  ]
+}

@@ -33,6 +33,7 @@ More recently, I've been building **LLM-based tooling for DV workflows** — cha
 
 <br/>
 
+<!-- PROJECTS:START -->
 ### Featured Projects
 
 <table>
@@ -61,6 +62,7 @@ More recently, I've been building **LLM-based tooling for DV workflows** — cha
 A browser-based synthwave motorcycle combat racer, built in Canvas 2D / vanilla JS as a single HTML file. → <a href="https://github.com/bhavanibedreshankar/road-rage">repo</a>
 
 </details>
+<!-- PROJECTS:END -->
 
 <br/>
 
