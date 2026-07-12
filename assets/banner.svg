@@ -59,10 +59,9 @@
   <g transform="translate(230,0)">
     <text x="0" y="118" font-size="42" font-weight="700" fill="url(#nameGrad)" letter-spacing="1" textLength="560" lengthAdjust="spacingAndGlyphs">Bhavani Bedre Shankar</text>
     <text x="0" y="156" font-size="20" font-weight="500" textLength="880" lengthAdjust="spacingAndGlyphs">
-      <tspan fill="#7dd3fc">Senior DV Infrastructure Engineer</tspan><tspan fill="#64748b">   ·   </tspan><tspan fill="#c4b5fd">GenAI Tooling for Verification</tspan>
+      <tspan fill="#7dd3fc">Senior DV Infrastructure Engineer</tspan><tspan fill="#64748b">   ·   </tspan><tspan fill="#c4b5fd">GenAI Tooling for DV Flow</tspan>
     </text>
-    <text x="0" y="194" font-size="15" fill="#94a3b8" textLength="980" lengthAdjust="spacingAndGlyphs">10+ years across RTL/ASIC verification (CPU &amp; GPU) — simulation flow tools, coverage automation,</text>
-    <text x="0" y="217" font-size="15" fill="#94a3b8" textLength="820" lengthAdjust="spacingAndGlyphs">RTL debug infra, and LLM-based debug assistants for triaging simulation failures.</text>
+    <text x="0" y="202" font-size="18" font-style="italic" fill="#5eead4" textLength="520" lengthAdjust="spacingAndGlyphs">Building with GenAI, one project at a time</text>
   </g>
 
   <!-- bottom accent -->
