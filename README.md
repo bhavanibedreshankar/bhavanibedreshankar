@@ -4,12 +4,14 @@
 
 <br/>
 
-10+ years building and verifying hardware at the RTL/ASIC level — SoC and IP-level verification for CPU and GPU, from writing verification plans and directed/random tests to building C++ golden reference models used as sign-off references for RTL. For the last few years I've owned the **DV infrastructure** side: simulation flow tooling, coverage automation, VCS testing/migration, and the RTL debug tooling verification teams rely on daily.
+I'm curious by nature, and I happen to spend my days in the DV (design verification) world — 10+ years across the front-end verification flow for CPU and GPU silicon, writing verification plans and building the C++ golden reference models our sign-off flow leans on, and more recently verifying and enhancing the infrastructure around that flow: simulation tooling, coverage automation, and the debug tooling verification teams reach for daily without thinking twice about it.
 
-More recently, I've been building **LLM-based tooling for DV workflows** — chat-based debug assistants that triage simulation failures (pre-compile, compile, sim, generic fails) and suggest fixes, and failure-triage reporting for regression runs.
+That same curiosity is what got me building with LLMs — wondering if a model could take the tedious parts off my plate, like chasing down why tests failed, triaging logs, suggesting the fix before I've had my coffee. It turned into a habit: whenever I hit a problem worth automating, at work or at home, I build something to solve it and see how far the model can take me.
 
-- 🔭 Currently focused on DV methodology & infrastructure, and GenAI-assisted debug tooling
-- 🧠 Interested in where LLM agents meet hardware verification — RTL-aware debuggers, automated triage, agentic sim-flow tools
+**This profile is where that curiosity turns into shipped code** — my playground for AI projects. Some solve problems I run into in daily life (family finances, retirement planning), some are me kicking the tires on a new model just to see what it can do, and all of them start the same way: I hit something annoying, and figured I'd try building my way out of it.
+
+- 🔭 Building AI tools to solve problems I actually run into — at work and at home
+- 🧠 Currently deep in where LLM agents meet hardware verification — RTL-aware debuggers, automated triage, agentic sim-flow tools
 - 🎓 M.S. Computer Engineering, Texas A&M University
 - 🏆 1st place, Hack@DAC (DAC 2018)
 
