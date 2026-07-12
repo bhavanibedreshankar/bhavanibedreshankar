@@ -1,0 +1,70 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="55%" stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#151233"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#grid)" opacity="0.35"/>
+
+  <!-- decorative clock/data waveform (RTL simulation motif) -->
+  <g stroke="#22d3ee" stroke-width="2.5" fill="none" opacity="0.55">
+    <polyline points="40,235 40,215 85,215 85,235 130,235 130,195 175,195 175,235 220,235 220,215 265,215 265,235 310,235 310,175 355,175 355,235"/>
+  </g>
+  <g stroke="#a78bfa" stroke-width="2.5" fill="none" opacity="0.4">
+    <polyline points="40,260 70,260 70,245 110,245 110,260 150,260 150,250 190,250 190,260 240,260 240,240 290,240 290,260 340,260 340,255 360,255"/>
+  </g>
+
+  <!-- chip icon -->
+  <g transform="translate(60,55)">
+    <rect x="0" y="0" width="90" height="90" rx="8" fill="#0f172a" stroke="#22d3ee" stroke-width="2.5"/>
+    <rect x="18" y="18" width="54" height="54" rx="4" fill="none" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="45" cy="45" r="10" fill="#22d3ee" opacity="0.85"/>
+    <g stroke="#22d3ee" stroke-width="2.5">
+      <line x1="-14" y1="14" x2="0" y2="14"/>
+      <line x1="-14" y1="30" x2="0" y2="30"/>
+      <line x1="-14" y1="46" x2="0" y2="46"/>
+      <line x1="-14" y1="62" x2="0" y2="62"/>
+      <line x1="90" y1="14" x2="104" y2="14"/>
+      <line x1="90" y1="30" x2="104" y2="30"/>
+      <line x1="90" y1="46" x2="104" y2="46"/>
+      <line x1="90" y1="62" x2="104" y2="62"/>
+      <line x1="14" y1="-14" x2="14" y2="0"/>
+      <line x1="30" y1="-14" x2="30" y2="0"/>
+      <line x1="46" y1="-14" x2="46" y2="0"/>
+      <line x1="62" y1="-14" x2="62" y2="0"/>
+      <line x1="14" y1="90" x2="14" y2="104"/>
+      <line x1="30" y1="90" x2="30" y2="104"/>
+      <line x1="46" y1="90" x2="46" y2="104"/>
+      <line x1="62" y1="90" x2="62" y2="104"/>
+    </g>
+  </g>
+
+  <!-- name and tagline; textLength pins exact width so nothing overflows regardless of font metrics -->
+  <g transform="translate(230,0)">
+    <text x="0" y="118" font-size="42" font-weight="700" fill="url(#nameGrad)" letter-spacing="1" textLength="560" lengthAdjust="spacingAndGlyphs">Bhavani Bedre Shankar</text>
+    <text x="0" y="156" font-size="20" font-weight="500" textLength="880" lengthAdjust="spacingAndGlyphs">
+      <tspan fill="#7dd3fc">Senior DV Infrastructure Engineer</tspan><tspan fill="#64748b">   ·   </tspan><tspan fill="#c4b5fd">GenAI Tooling for Verification</tspan>
+    </text>
+    <text x="0" y="194" font-size="15" fill="#94a3b8" textLength="980" lengthAdjust="spacingAndGlyphs">10+ years across RTL/ASIC verification (CPU &amp; GPU) — simulation flow tools, coverage automation,</text>
+    <text x="0" y="217" font-size="15" fill="#94a3b8" textLength="820" lengthAdjust="spacingAndGlyphs">RTL debug infra, and LLM-based debug assistants for triaging simulation failures.</text>
+  </g>
+
+  <!-- bottom accent -->
+  <rect x="0" y="292" width="1280" height="8" fill="url(#accentLine)"/>
+</svg>
