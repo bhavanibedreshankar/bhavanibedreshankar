@@ -38,46 +38,34 @@ More recently, I've been building **LLM-based tooling for DV workflows** — cha
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bhavanibedreshankar/tpe-tensor-processing-engine"><b>🔧 tpe-tensor-processing-engine</b></a>
-      <br/>
-      Built as the base framework I'll develop several AI automations on top of — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.
-      <br/><br/>
-      <i>RTL · C++ · UVM · Verification Methodology</i>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bhavanibedreshankar/agentic_ai_basics"><b>🤖 agentic_ai_basics</b></a>
-      <br/>
-      My cheatsheet for agentic AI concepts — a learning series of small, self-contained Python templates for building with the Claude API.
-      <br/><br/>
-      <i>Python · Claude API · Agentic Patterns</i>
-    </td>
+    <th>Project</th>
+    <th>Description</th>
+    <th>Tech Stack</th>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bhavanibedreshankar/road-rage"><b>🎮 road-rage</b></a>
-      <br/>
-      Built to put the Fable5 model's capabilities to the test — a browser-based synthwave motorcycle combat racer in Canvas 2D / vanilla JS, single HTML file.
-      <br/><br/>
-      <i>HTML5 · Canvas · JavaScript</i>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bhavanibedreshankar/familyfinance"><b>💰 familyfinance</b></a>
-      <br/>
-      A personal app for managing family finances and planning for retirement — self-hosted dashboard with Plaid account aggregation, expense tracking, net worth/property tracking, reports, and a Monte Carlo retirement planner.
-      <br/><br/>
-      <i>Python · Plaid API · Monte Carlo Simulation</i>
-    </td>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/tpe-tensor-processing-engine"><b>🔧 tpe-tensor-processing-engine</b></a></td>
+    <td valign="top">Built as the base framework I'll develop several AI automations on top of — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.</td>
+    <td valign="top"><i>RTL · C++ · UVM · Verification Methodology</i></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bhavanibedreshankar/expense-tracker-ai"><b>💸 expense-tracker-ai</b></a>
-      <br/>
-      My first project, built just for fun with Claude Code — a private, local-first personal expense tracker.
-      <br/><br/>
-      <i>Next.js · TypeScript · Tailwind CSS</i>
-    </td>
-    <td width="50%" valign="top">&nbsp;</td>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/agentic_ai_basics"><b>🤖 agentic_ai_basics</b></a></td>
+    <td valign="top">My cheatsheet for agentic AI concepts — a learning series of small, self-contained Python templates for building with the Claude API.</td>
+    <td valign="top"><i>Python · Claude API · Agentic Patterns</i></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/road-rage"><b>🎮 road-rage</b></a></td>
+    <td valign="top">Built to put the Fable5 model's capabilities to the test — a browser-based synthwave motorcycle combat racer in Canvas 2D / vanilla JS, single HTML file.</td>
+    <td valign="top"><i>HTML5 · Canvas · JavaScript</i></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/familyfinance"><b>💰 familyfinance</b></a></td>
+    <td valign="top">A personal app for managing family finances and planning for retirement — self-hosted dashboard with Plaid account aggregation, expense tracking, net worth/property tracking, reports, and a Monte Carlo retirement planner.</td>
+    <td valign="top"><i>Python · Plaid API · Monte Carlo Simulation</i></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/expense-tracker-ai"><b>💸 expense-tracker-ai</b></a></td>
+    <td valign="top">My first project, built just for fun with Claude Code — a private, local-first personal expense tracker.</td>
+    <td valign="top"><i>Next.js · TypeScript · Tailwind CSS</i></td>
   </tr>
 </table>
 <!-- PROJECTS:END -->

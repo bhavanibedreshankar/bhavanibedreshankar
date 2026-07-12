@@ -19,25 +19,26 @@ START_MARKER = "<!-- PROJECTS:START -->"
 END_MARKER = "<!-- PROJECTS:END -->"
 
 
-def featured_card(p: dict) -> str:
-    return f"""    <td width="50%" valign="top">
-      <a href="https://github.com/{GITHUB_USER}/{p['repo']}"><b>{p['emoji']} {p['repo']}</b></a>
-      <br/>
-      {p['description']}
-      <br/><br/>
-      <i>{p['stack']}</i>
-    </td>"""
+def featured_row(p: dict) -> str:
+    return f"""  <tr>
+    <td valign="top"><a href="https://github.com/{GITHUB_USER}/{p['repo']}"><b>{p['emoji']} {p['repo']}</b></a></td>
+    <td valign="top">{p['description']}</td>
+    <td valign="top"><i>{p['stack']}</i></td>
+  </tr>"""
 
 
 def render_featured(projects: list) -> str:
-    rows = []
-    for i in range(0, len(projects), 2):
-        pair = projects[i:i + 2]
-        cells = [featured_card(p) for p in pair]
-        if len(cells) == 1:
-            cells.append('    <td width="50%" valign="top">&nbsp;</td>')
-        rows.append("  <tr>\n" + "\n".join(cells) + "\n  </tr>")
-    return "<table>\n" + "\n".join(rows) + "\n</table>"
+    rows = [featured_row(p) for p in projects]
+    return (
+        "<table>\n"
+        "  <tr>\n"
+        "    <th>Project</th>\n"
+        "    <th>Description</th>\n"
+        "    <th>Tech Stack</th>\n"
+        "  </tr>\n"
+        + "\n".join(rows)
+        + "\n</table>"
+    )
 
 
 def render_fun(projects: list) -> str:
