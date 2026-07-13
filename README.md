@@ -46,7 +46,7 @@ That same curiosity is what got me building with LLMs — wondering if a model c
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/tpe-tensor-processing-engine"><b>🔧 tpe-tensor-processing-engine</b></a></td>
-    <td valign="top">Built as the base framework I'll develop several AI automations on top of — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.</td>
+    <td valign="top">Built as the base framework to furthur develop several AI automations on top of it — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.</td>
     <td valign="top"><i>RTL · C++ · UVM · Verification Methodology</i></td>
   </tr>
   <tr>
