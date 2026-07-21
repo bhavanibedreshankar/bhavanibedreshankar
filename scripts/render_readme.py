@@ -20,10 +20,13 @@ END_MARKER = "<!-- PROJECTS:END -->"
 
 
 def featured_row(p: dict) -> str:
+    live = p.get("live")
+    live_cell = f'<a href="{live}">Live ↗</a>' if live else "—"
     return f"""  <tr>
     <td valign="top"><a href="https://github.com/{GITHUB_USER}/{p['repo']}"><b>{p['emoji']} {p['repo']}</b></a></td>
     <td valign="top">{p['description']}</td>
     <td valign="top"><i>{p['stack']}</i></td>
+    <td valign="top" align="center">{live_cell}</td>
   </tr>"""
 
 
@@ -35,6 +38,7 @@ def render_featured(projects: list) -> str:
         "    <th>Project</th>\n"
         "    <th>Description</th>\n"
         "    <th>Tech Stack</th>\n"
+        "    <th>Live</th>\n"
         "  </tr>\n"
         + "\n".join(rows)
         + "\n</table>"

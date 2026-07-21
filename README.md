@@ -43,41 +43,49 @@ That same curiosity is what got me building with LLMs — wondering if a model c
     <th>Project</th>
     <th>Description</th>
     <th>Tech Stack</th>
+    <th>Live</th>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/nourish-habit"><b>🌱 nourish-habit</b></a></td>
     <td valign="top">Built to help me prepare healthier meals without giving up the dishes I already eat, so I can stay healthy without a diet-food overhaul — a free meal-planning PWA that upgrades your habitual meals to hit a calorie target, cooks from your own pantry, and finds recipes through an AI chat.</td>
     <td valign="top"><i>React · TypeScript · Vite · Tailwind CSS · Dexie/IndexedDB · PWA</i></td>
+    <td valign="top" align="center"><a href="https://nourish-habit.vercel.app/landing">Live ↗</a></td>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/meridian-strike"><b>⚽ meridian-strike</b></a></td>
     <td valign="top">A fun project inspired by the recent FIFA World Cup — a browser-based 3D soccer game with full 11v11 matches, tiered AI opponents, and a career ladder.</td>
     <td valign="top"><i>JavaScript · Three.js · Node.js</i></td>
+    <td valign="top" align="center"><a href="https://bhavanibedreshankar.github.io/meridian-strike/">Live ↗</a></td>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/tpe-tensor-processing-engine"><b>🔧 tpe-tensor-processing-engine</b></a></td>
     <td valign="top">Built as the base framework I'll develop several AI automations on top of — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.</td>
     <td valign="top"><i>RTL · C++ · UVM · Verification Methodology</i></td>
+    <td valign="top" align="center"><a href="https://bhavanibedreshankar.github.io/tpe-tensor-processing-engine/">Live ↗</a></td>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/agentic_ai_basics"><b>🤖 agentic_ai_basics</b></a></td>
     <td valign="top">My cheatsheet for agentic AI concepts — a learning series of small, self-contained Python templates for building with the Claude API.</td>
     <td valign="top"><i>Python · Claude API · Agentic Patterns</i></td>
+    <td valign="top" align="center"><a href="https://bhavanibedreshankar.github.io/agentic_ai_basics/">Live ↗</a></td>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/road-rage"><b>🎮 road-rage</b></a></td>
     <td valign="top">Built to put the Fable5 model's capabilities to the test — a browser-based synthwave motorcycle combat racer in Canvas 2D / vanilla JS, single HTML file.</td>
     <td valign="top"><i>HTML5 · Canvas · JavaScript</i></td>
+    <td valign="top" align="center"><a href="https://bhavanibedreshankar.github.io/road-rage/">Live ↗</a></td>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/familyfinance"><b>💰 familyfinance</b></a></td>
     <td valign="top">A personal app for managing family finances and planning for retirement — self-hosted dashboard with Plaid account aggregation, expense tracking, net worth/property tracking, reports, and a Monte Carlo retirement planner.</td>
     <td valign="top"><i>Python · Plaid API · Monte Carlo Simulation</i></td>
+    <td valign="top" align="center">—</td>
   </tr>
   <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/expense-tracker-ai"><b>💸 expense-tracker-ai</b></a></td>
     <td valign="top">My first project, built just for fun with Claude Code — a private, local-first personal expense tracker.</td>
     <td valign="top"><i>Next.js · TypeScript · Tailwind CSS</i></td>
+    <td valign="top" align="center">—</td>
   </tr>
 </table>
 <!-- PROJECTS:END -->
