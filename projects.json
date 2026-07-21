@@ -1,6 +1,18 @@
 {
   "featured": [
     {
+      "repo": "nourish-habit",
+      "emoji": "🌱",
+      "description": "Built to help me prepare healthier meals without giving up the dishes I already eat, so I can stay healthy without a diet-food overhaul — a free meal-planning PWA that upgrades your habitual meals to hit a calorie target, cooks from your own pantry, and finds recipes through an AI chat.",
+      "stack": "React · TypeScript · Vite · Tailwind CSS · Dexie/IndexedDB · PWA"
+    },
+    {
+      "repo": "meridian-strike",
+      "emoji": "⚽",
+      "description": "A fun project inspired by the recent FIFA World Cup — a browser-based 3D soccer game with full 11v11 matches, tiered AI opponents, and a career ladder.",
+      "stack": "JavaScript · Three.js · Node.js"
+    },
+    {
       "repo": "tpe-tensor-processing-engine",
       "emoji": "🔧",
       "description": "Built as the base framework I'll develop several AI automations on top of — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.",

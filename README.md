@@ -45,8 +45,18 @@ That same curiosity is what got me building with LLMs — wondering if a model c
     <th>Tech Stack</th>
   </tr>
   <tr>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/nourish-habit"><b>🌱 nourish-habit</b></a></td>
+    <td valign="top">Built to help me prepare healthier meals without giving up the dishes I already eat, so I can stay healthy without a diet-food overhaul — a free meal-planning PWA that upgrades your habitual meals to hit a calorie target, cooks from your own pantry, and finds recipes through an AI chat.</td>
+    <td valign="top"><i>React · TypeScript · Vite · Tailwind CSS · Dexie/IndexedDB · PWA</i></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/bhavanibedreshankar/meridian-strike"><b>⚽ meridian-strike</b></a></td>
+    <td valign="top">A fun project inspired by the recent FIFA World Cup — a browser-based 3D soccer game with full 11v11 matches, tiered AI opponents, and a career ladder.</td>
+    <td valign="top"><i>JavaScript · Three.js · Node.js</i></td>
+  </tr>
+  <tr>
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/tpe-tensor-processing-engine"><b>🔧 tpe-tensor-processing-engine</b></a></td>
-    <td valign="top">Built as the base framework to furthur develop several AI automations on top of it — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.</td>
+    <td valign="top">Built as the base framework I'll develop several AI automations on top of — a from-scratch AI accelerator with RTL, a C++ golden model, and a full <code>pyuvm</code>/<code>cocotb</code> verification environment, including 7 intentionally-catalogued bugs to exercise the flow.</td>
     <td valign="top"><i>RTL · C++ · UVM · Verification Methodology</i></td>
   </tr>
   <tr>
