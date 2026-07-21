@@ -85,7 +85,7 @@ That same curiosity is what got me building with LLMs — wondering if a model c
     <td valign="top"><a href="https://github.com/bhavanibedreshankar/expense-tracker-ai"><b>💸 expense-tracker-ai</b></a></td>
     <td valign="top">My first project, built just for fun with Claude Code — a private, local-first personal expense tracker.</td>
     <td valign="top"><i>Next.js · TypeScript · Tailwind CSS</i></td>
-    <td valign="top" align="center">—</td>
+    <td valign="top" align="center"><a href="https://expense-tracker-ai-five-delta.vercel.app/landing">Live ↗</a></td>
   </tr>
 </table>
 <!-- PROJECTS:END -->

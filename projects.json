@@ -45,7 +45,8 @@
       "repo": "expense-tracker-ai",
       "emoji": "💸",
       "description": "My first project, built just for fun with Claude Code — a private, local-first personal expense tracker.",
-      "stack": "Next.js · TypeScript · Tailwind CSS"
+      "stack": "Next.js · TypeScript · Tailwind CSS",
+      "live": "https://expense-tracker-ai-five-delta.vercel.app/landing"
     }
   ],
   "fun": []
